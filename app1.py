@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import re
 import os
-import nltk
 
 # -------------------------------------------------
 # NLTK SAFE INIT (THIS MUST BE FIRST)
@@ -87,6 +86,7 @@ if analyze:
                 st.success("Positive Review 😊")
             else:
                 st.error("Negative Review 😞")
+
 
 
 
